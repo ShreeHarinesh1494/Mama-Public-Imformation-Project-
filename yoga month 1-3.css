@@ -1,0 +1,83 @@
+body{
+    background-color: orange;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Kanit', sans-serif;
+}
+p{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-size: larger;
+word-spacing: 2px;
+
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Kanit', sans-serif;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .menubar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  .logo{
+        color: aliceblue;
+  }
+  .menubar ul{
+    list-style: none;
+    display: flex;
+  }
+  .menubar ul li{
+    padding: 10px 30px;
+    position: relative;
+  }
+  .menubar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .menubar ul li a:hover{
+    color: brown;
+  }
+  .dropdownmenu{
+    display: none;
+    
+  }
+  .menubar ul li:hover .dropdownmenu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+  
+  
+  }
+  .dropdownmenu ul{
+    display: block;
+    margin: 10px;
+  }
+  .dropdownmenu ul li{
+    width: 100px;
+    padding:10px ;
+    opacity: 1pt;
+    
+  }
+  #month{
+    z-index: 2;
+  }
+ 

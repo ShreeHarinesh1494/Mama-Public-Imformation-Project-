@@ -1,0 +1,83 @@
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: orange;
+  }
+  .menubar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  .logo{
+        color: aliceblue;
+  }
+  .menubar ul{
+    list-style: none;
+    display: flex;
+  }
+  .menubar ul li{
+    padding: 10px 30px;
+    position: relative;
+  }
+  .menubar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .menubar ul li a:hover{
+    color: brown;
+  }
+  .dropdownmenu{
+    display: none;
+  }
+  .menubar ul li:hover .dropdownmenu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+  }
+  .dropdownmenu ul{
+    display: block;
+    margin: 10px;
+  }
+  .dropdownmenu ul li{
+    width: 100px;
+    padding:10px ;
+  }
+  .grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding-top: 70px;
+    row-gap:50px;
+    margin-left: 140px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    width:300px;
+    height:350px;
+    transition: 1s;
+    
+
+  }
+  .grid-item:hover{
+    transform: scale(1.3);
+  }
+
+#month{
+  z-index: 2;
+}

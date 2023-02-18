@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: url(mama.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: orange;
+  }
+  .menubar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  .logo{
+        color: aliceblue;
+  }
+  .menubar ul{
+    list-style: none;
+    display: flex;
+  }
+  .menubar ul li{
+    padding: 10px 30px;
+    position: relative;
+  }
+  .menubar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .menubar ul li a:hover{
+    color: brown;
+  }
+  .dropdownmenu{
+    display: none;
+  }
+  .menubar ul li:hover .dropdownmenu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+  }
+  .dropdownmenu ul{
+    display: block;
+    margin: 10px;
+  }
+  .dropdownmenu ul li{
+    width: 100px;
+    padding:10px ;
+  }
+  h1{
+    font-size: xx-large;
+  }
+  h3{
+    font-size: x-large;
+  }
+  #one{
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 3px;
+  }
+  #two{
+    margin-top: 26%;
+    background-color: black;
+    width: 100%;
+    height: 48px;
+  }
+  .fa {
+    padding-top: 20px;
+    font-size: 30px;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    margin-top: 25.9%;
+
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+#month{
+  z-index: 2;
+}
